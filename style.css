@@ -1,0 +1,75 @@
+
+.grid
+{
+	text-align: center;
+	transform: all ease 2s;
+	margin:1%;
+}
+.carmain{
+	width: 30%;
+	height:70vh;
+	margin: 1% 30%;
+}
+.cortop
+{
+	
+	margin:0.3% 2%;
+	box-shadow: 1px 1px 25px #ccc2c2;
+}
+.imgbottom
+{
+	width: 100px;
+	height: 100px;
+	margin:1%;
+	cursor: pointer;
+}
+.corbottom
+{		
+	overflow-x: auto;
+	white-space: nowrap; 
+	box-shadow: 1px 1px 25px #ccc2c2;
+	margin:0.3% 2%; 
+}
+.imgwrap
+{
+	display: inline-block;
+	margin: 2%;
+}
+.description
+{
+	margin:0.3% 0.9%;
+	cursor: pointer;
+}
+#description
+{
+	box-shadow: 1px 1px 25px #ccc2c2;
+	margin-top:-1.5%;
+	padding: 1%;
+	margin:-1.5% 0.2% ;
+	margin-bottom: 1%;
+}
+.active
+{
+		box-shadow: 0px 5px 15px #000;
+		border: 1px solid #999;
+		opacity: 1;	
+}
+.disabled
+{
+	opacity:0.5;
+	filter:grayscale(100%);
+}
+.loading
+{
+	width:100px;
+	margin : 20% 40%;
+}
+.c_footer
+{
+	border-top: 1px solid #bbb;
+	text-align: center;
+	margin: 4% 0% 0% 0%;
+	padding:2%;
+	background: #eee;
+	height: 100%;
+}
